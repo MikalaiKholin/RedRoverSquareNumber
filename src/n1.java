@@ -8,7 +8,7 @@ public class n1 {
         System.out.println(start + " after while"); ///сколько прошло циклов
 
         if (number == start*start) {
-            System.out.println(start + " == ");
+            System.out.println(start * start + " == ");
         }else if ((start*start - number) < (number-(start -1)*(start -1))) {
             System.out.println(start * start );
         }else {
